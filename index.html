@@ -7,7 +7,289 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="magick-mini.css">
     <title>Dr. Leonardo Ismael Kunzi</title>
+</head><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Leonardo Ismael Kunzi - Abogado Penalista especializado en derecho penal, defensa criminal, asesoramiento legal y representación en juicios en Entre Ríos.">
+    <meta name="keywords" content="abogado penalista, derecho penal, defensa criminal, abogado Paraná, asesoramiento legal, juicios, sucesiones, amparos">
+    <meta name="author" content="Dr. Leonardo Ismael Kunzi">
+    <meta property="og:title" content="Dr. Leonardo Ismael Kunzi - Abogado Penalista">
+    <meta property="og:description" content="Especialista en Derecho Penal con amplia experiencia en defensa criminal y asesoramiento legal en Entre Ríos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dr.kunzi.ar">
+    <meta property="og:image" content="law-scales.svg">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dr.kunzi.ar">
+    <title>Dr. Leonardo Ismael Kunzi - Abogado Penalista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :focus {
+            outline: 3px solid #2F4F7F;
+            outline-offset: 2px;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #2F4F7F 0%, #ADD8E6 100%);
+        }
+        .service-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+        .service-card:hover, .service-card:focus-within {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-left-color: #2F4F7F;
+        }
+        .contact-btn {
+            transition: all 0.3s ease;
+        }
+        .contact-btn:hover, .contact-btn:focus {
+            transform: scale(1.05);
+        }
+        .service-icon {
+            background: linear-gradient(135deg, #2F4F7F 0%, #ADD8E6 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
 </head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Skip to content link for keyboard users -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:bg-white focus:px-4 focus:py-2 focus:z-50 focus:font-bold focus:text-blue-800 focus:underline focus:rounded">
+        Saltar al contenido principal
+    </a>
+
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-gradient-to-r from-blue-700 to-blue-500 text-white p-2 rounded-lg" aria-hidden="true">
+                    <i class="fas fa-balance-scale text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-blue-800">Dr. Leonardo Ismael Kunzi</h1>
+            </div>
+            <nav aria-label="Navegación principal">
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#services" class="text-blue-700 hover:text-blue-900 font-medium transition-colors">Servicios</a></li>
+                    <li><a href="#contact" class="text-blue-700 hover:text-blue-900 font-medium transition-colors">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="md:hidden text-blue-700 focus:outline-none" id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="sr-only">Menú principal</span>
+                <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white w-full py-2 px-4 shadow-md" id="mobile-menu" role="menu">
+            <ul>
+                <li role="none"><a href="#services" class="block py-2 text-blue-700 hover:text-blue-900 transition-colors" role="menuitem">Servicios</a></li>
+                <li role="none"><a href="#contact" class="block py-2 text-blue-700 hover:text-blue-900 transition-colors" role="menuitem">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-gradient text-white py-16 md:py-24">
+            <div class="container mx-auto px-4 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <div class="bg-white bg-opacity-20 rounded-full w-24 h-24 mx-auto flex items-center justify-center mb-6" aria-hidden="true">
+                        <i class="fas fa-balance-scale text-4xl"></i>
+                    </div>
+                    <h1 class="text-3xl md:text-4xl font-bold mb-4">Dr. Leonardo Ismael Kunzi</h1>
+                    <h2 class="text-xl md:text-2xl font-semibold mb-2">Abogado Especialista en Derecho Penal</h2>
+                    <p class="text-lg opacity-90 mb-8">Defensa legal experta con enfoque personalizado y resultados comprobados en Entre Ríos</p>
+                    <a href="#contact" class="bg-white text-blue-800 font-semibold px-8 py-3 rounded-full inline-block contact-btn hover:shadow-lg">
+                        Consulta <i class="fas fa-arrow-right ml-2" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <!-- <span class="text-blue-600 font-medium">ÁREAS DE PRÁCTICA</span> -->
+                    <h2 class="text-3xl font-bold text-blue-800 mt-2">Servicios Legales</h2>
+                    <div class="w-16 h-1 bg-blue-600 mx-auto mt-4" aria-hidden="true"></div>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <article class="bg-white rounded-xl shadow-md p-6 service-card">
+                        <div class="mb-4" aria-hidden="true">
+                            <i class="fas fa-gavel text-3xl service-icon"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Asesoramiento Integral</h3>
+                        <p class="text-gray-600">Evaluación detallada de su caso con estrategias legales personalizadas para proteger sus derechos.</p>
+                    </article>
+                    <article class="bg-white rounded-xl shadow-md p-6 service-card">
+                        <div class="mb-4" aria-hidden="true">
+                            <i class="fas fa-shield-alt text-3xl service-icon"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Defensas Penales</h3>
+                        <p class="text-gray-600">Representación experta en causas provinciales y federales, con enfoque en obtener los mejores resultados.</p>
+                    </article>
+                    <article class="bg-white rounded-xl shadow-md p-6 service-card">
+                        <div class="mb-4" aria-hidden="true">
+                            <i class="fas fa-handshake text-3xl service-icon"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Consultas Civiles</h3>
+                        <p class="text-gray-600">Asesoramiento en derecho civil, contratos, daños y perjuicios, y otras cuestiones de la esfera civil.</p>
+                    </article>
+                    <article class="bg-white rounded-xl shadow-md p-6 service-card">
+                        <div class="mb-4" aria-hidden="true">
+                            <i class="fas fa-file-contract text-3xl service-icon"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Sucesorios</h3>
+                        <p class="text-gray-600">Asesoramiento y gestión en sucesiones, testamentos, declaratorias de herederos y partición de bienes.</p>
+                    </article>
+                    <article class="bg-white rounded-xl shadow-md p-6 service-card">
+                        <div class="mb-4" aria-hidden="true">
+                            <i class="fas fa-user-shield text-3xl service-icon"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Amparos</h3>
+                        <p class="text-gray-600">Acciones de amparo para proteger derechos constitucionales vulnerados por negativas de cobertura de obras sociales y actos de autoridad.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <span class="text-blue-600 font-medium">CONTÁCTENOS</span>
+                    <h2 class="text-3xl font-bold text-blue-800 mt-2">Estamos para ayudarle</h2>
+                    <div class="w-16 h-1 bg-blue-600 mx-auto mt-4" aria-hidden="true"></div>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Información de Contacto</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-blue-700 mr-4 mt-1" aria-hidden="true">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <address>
+                                    <p class="font-medium">Oficina</p>
+                                    <p class="text-gray-600">México 333, Paraná, Entre Ríos</p>
+                                    <a href="https://maps.app.goo.gl/Cw7fkBinSSGEFL8o7" class="text-blue-600 hover:underline inline-block mt-1 transition-colors" target="_blank">
+                                        Ver en mapa <i class="fas fa-external-link-alt ml-1 text-xs" aria-hidden="true"></i>
+                                    </a>
+                                </address>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-blue-700 mr-4" aria-hidden="true">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <a href="mailto:consultas@kunzi.ar" class="text-blue-600 hover:underline transition-colors">consultas@kunzi.ar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Contactar Ahora</h3>
+                        <div class="space-y-4">
+                            <a href="http://api.whatsapp.com/send?phone=5493434511262&text=Hola, mi nombre es " target="_blank" 
+                               class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg inline-flex items-center contact-btn hover:shadow-lg">
+                                <i class="fab fa-whatsapp text-2xl mr-3" aria-hidden="true"></i>
+                                WhatsApp
+                            </a>
+                            <p class="text-gray-600 text-sm">Respuesta rápida en horario laboral</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://ar.linkedin.com/in/leonardo-ismael-kunzi-7290b191" target="_blank" class="text-blue-700 hover:text-blue-900 transition-colors" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin text-xl" aria-hidden="true"></i>
+                </a>
+                <!-- <a href="#" class="text-blue-700 hover:text-blue-900 transition-colors" aria-label="Twitter">
+                    <i class="fab fa-twitter text-xl" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="text-blue-700 hover:text-blue-900 transition-colors" aria-label="Facebook">
+                    <i class="fab fa-facebook text-xl" aria-hidden="true"></i>
+                </a> -->
+            </div>
+            <p class="text-gray-600">&copy; <span id="current-year">2025</span> Dr. Leonardo Ismael Kunzi. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle with ARIA attributes
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuButton.addEventListener('click', function() {
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside or navigating
+        document.addEventListener('click', function(event) {
+            if (!mobileMenu.contains(event.target) && event.target !== menuButton && !menuButton.contains(event.target)) {
+                menuButton.setAttribute('aria-expanded', 'false');
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // Smooth scrolling for anchor links with focus management
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+                
+                if (target) {
+                    // Close mobile menu if open
+                    if (menuButton.getAttribute('aria-expanded') === 'true') {
+                        menuButton.setAttribute('aria-expanded', 'false');
+                        mobileMenu.classList.add('hidden');
+                    }
+                    
+                    // Smooth scroll to target
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Focus the target for keyboard users
+                    setTimeout(() => {
+                        target.setAttribute('tabindex', '-1');
+                        target.focus();
+                    }, 500);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
 <body>
 <div style="background-image: linear-gradient(to bottom, #ADD8E6, #2F4F7F);">
    <main>
